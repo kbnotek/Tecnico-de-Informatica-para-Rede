@@ -1,0 +1,28 @@
+programa {
+  funcao inicio() 
+  {
+    inteiro n
+    real r 
+    caracter c 
+    logico l 
+    cadeia cd 
+
+    escreva("\nDigita um número inteiro:")
+    leia(n) 
+     escreva("\nDigita um número Real :")
+    leia(r)
+     escreva("\nDigita um Caracter:")
+    leia(c)
+     escreva("\nDigite Verdadeiro ou Falso:")
+    leia(l)
+     escreva("\nDigita Seu Nome:")
+    leia(cd)
+
+
+      escreva("\n Número inteiro: ",n)
+      escreva("\n Número Real: ",r)
+      escreva("\n Seu Caractere é: ",c)
+      escreva("\n Sua Situação é: ",l)
+    escreva("\n Meu Nome é: ",cd)
+  }
+}
